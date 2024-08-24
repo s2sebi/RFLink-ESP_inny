@@ -34,12 +34,12 @@
 //   the parameters starting with YES_ are only used in special programs
 //   the parameters starting witn NOT_ are often used in most programs (used by myself)
 // *************************************************************************
-//#define YES_INCLUDE_FTPSERVER
+//#define NOT_INCLUDE_FTPSERVER
 //#define YES_INCLUDE_BLAUWE_ENGEL
 //#define YES_INCLUDE_FIJNSTOF_CONDITIONERING
-//#define YES_INCLUDE_SENSOR_BMP280
-//#define YES_INCLUDE_SENSOR_MLX90614
-//#define YES_INCLUDE_SENSOR_MLX90640
+//#define NOT_INCLUDE_SENSOR_BMP280
+//#define NOT_INCLUDE_SENSOR_MLX90614
+//#define NOT_INCLUDE_SENSOR_MLX90640
 //#define YES_INCLUDE_SENSOR_MQTTBroker
 //#define YES_INCLUDE_SENSOR_NTP        
 //#define YES_INCLUDE_SENSOR_OKE4
@@ -114,7 +114,7 @@ void setup() {
   // For the ESP8266 this is the only moment to send an email
   // Values are defined in Wifi_settings.h
   // *******************************************************
-  Restart_Email ( __SECRET_SMTP_MailTo, "RFLink Restarted", "Body" ) ;
+   Restart_Email ( __SECRET_SMTP_MailTo, "RFLink Restarted", "Body" ) ;
 
   // *******************************************************
   // Create all Sensors and Receivers

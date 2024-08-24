@@ -4,9 +4,9 @@
 // ***********************************************************************
 //  PRIVATE GLOBALS
 // ***********************************************************************
-#define __SECRET_Wifi_Name  "Home Network SSID"
-#define __SECRET_Wifi_PWD   "Password"   
-#define __SECRET_Broker_IP  "192.168.22.23" 
+#define __SECRET_Wifi_Name  "happy_and"
+#define __SECRET_Wifi_PWD   "alamakotaakotmaale"   
+#define __SECRET_Broker_IP  "10.0.0.184" 
 
 #define __SECRET_SMTP_Server "smtp.gmail.com"
 #ifdef ESP32
